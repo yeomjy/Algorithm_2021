@@ -1,0 +1,88 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{10.1145/3299869.3319880}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=6b297f65e7fcb362034e922ee83b8405}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Myoungji},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3165e1d7308c1cc471939428ec8f1a9e}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Hyunjoon},
+           giveni={H\bibinitperiod}}}%
+        {{hash=239338a29ee38e701df3bb1b48c29751}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Geonmo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=882ef61abf75ac9d268c915049336f07}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Kunsoo},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b6a6981ff85966403aa40ad5a60ce42c}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Wook-Shin},
+           giveni={W\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam, Netherlands}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{f759d11e81365f6a562f64033615b1f6}
+      \strng{fullhash}{dd892cc17b029cf40f5dcca7d54e7f6b}
+      \strng{bibnamehash}{f759d11e81365f6a562f64033615b1f6}
+      \strng{authorbibnamehash}{f759d11e81365f6a562f64033615b1f6}
+      \strng{authornamehash}{f759d11e81365f6a562f64033615b1f6}
+      \strng{authorfullhash}{dd892cc17b029cf40f5dcca7d54e7f6b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Subgraph matching (or subgraph isomorphism) is one of the fundamental problems in graph analysis. Extensive research has been done to develop practical solutions for subgraph matching. The state-of-the-art algorithms such as textsfCFL-Match and textsfTurbotextsubscriptiso convert a query graph into a spanning tree for obtaining candidates for each query vertex and obtaining a good matching order with the spanning tree. However, by using the spanning tree instead of the original query graph, it could lead to lower pruning power and a sub-optimal matching order. Another limitation is that they perform redundant computation in search without utilizing the knowledge learned from past computation. In this paper, we introduce three novel concepts to address these inherent limitations: 1) dynamic programming between a directed acyclic graph (DAG) and a graph, 2) adaptive matching order with DAG ordering, and 3) pruning by failing sets, which together lead to a much faster algorithm textsfDAF for subgraph matching. Extensive experiments with real datasets show that textsfDAF outperforms the fastest existing solution by up to orders of magnitude in terms of recursive calls as well as in terms of the elapsed time.}
+      \field{booktitle}{Proceedings of the 2019 International Conference on Management of Data}
+      \field{isbn}{9781450356435}
+      \field{series}{SIGMOD '19}
+      \field{title}{Efficient Subgraph Matching: Harmonizing Dynamic Programming, Adaptive Matching Order, and Failing Set Together}
+      \field{year}{2019}
+      \field{pages}{1429\bibrangedash 1446}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1145/3299869.3319880
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3299869.3319880
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3299869.3319880
+      \endverb
+      \keyw{adaptive matching order,failing set,dynamic programming,subgraph matching,subgraph isomorphism}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
